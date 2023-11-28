@@ -1,0 +1,237 @@
+.compsa-logo{
+    width: 250px;
+ 
+}
+
+
+
+
+nav{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    background-color: darkgrey;
+    margin-bottom: 5px;
+    border-bottom: 2px solid gold;
+}
+nav ul{
+    display: inline-flex;
+    list-style: none;
+}
+nav ul li{
+    margin-right: 20px;
+    font-size: 10px;
+    text-transform: uppercase;
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.a:active{
+    border-bottom: 1px solid gold;
+}
+a:hover{
+    color: gold;
+    transition: .5s;
+    opacity: 8px;
+}
+.c-h2{
+    background: url("../11297552_DCIT205/about-banner.jpg") no-repeat 0, 400px;
+    min-height: 300px;
+    text-align: center;
+    width: 100%;
+    background-size: cover;  
+    color: white;
+    font-size: 50px;
+    margin-top: 20px;
+}
+body{
+    width: 90%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#h2{
+    font-size: 50px;
+    margin-top: 20px;
+    color: white;
+    
+
+}
+
+.l-d{
+    display: grid;
+    width: 300px;
+    grid-template-columns: 30% 70%;
+    margin-top: 20px;
+    
+}
+.ri-home-5-line{
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: normal;
+}
+span{
+    color: gray;
+    margin-top: 5px;
+}
+.ri-phone-line{
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: normal;
+}
+.c-d{
+    display: grid;
+    width: 300px;
+    grid-template-columns: 30% 70%;
+}
+.e-d{
+    display: grid;
+    width: 300px;
+    grid-template-columns: 30% 70%;
+}
+.ri-mail-line{
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: normal;
+}
+.main-container{
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.i-s{
+    margin-top: 20px;
+    height: 50px;
+    width: 400px;
+    border: 1px solid lightblue;
+    outline: none;
+    
+}
+textarea{
+    height: 200px;
+    margin-top: 20px;
+    width: 400px;
+    font-size: 15px;
+    font-weight: normal;
+    color: grey;
+}
+.i-s:focus{
+    outline: none;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: burlywood;
+    font-size: 16px;
+    margin-top: 1.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    
+  }
+  
+  .ft-ul li {
+    list-style-type: none;
+    list-style: none;
+    text-align: left;
+    margin-bottom: 0.7em;
+  }
+  
+  .ft-ul li a {
+    transform: scale(1);
+    text-decoration: none;
+  }
+  
+  .ft-ul li a:hover {
+    color: white;
+    transform: scale(1.05);
+  }
+  
+  .ft-ul {
+    padding-inline-start: 0;
+    margin-top: 0;
+  }
+  
+  .ft-rw-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+  }
+  
+  .ft-rw-cols {
+    justify-content: flex-start;
+  }
+  
+  .ft-rw-cols h2 {
+    color: white;
+    margin-bottom: 0;
+    font-size: 1.7em;
+  }
+  
+  .nwl-p {
+    color: rgba(255, 255, 255, 0.763);
+    font-size: 1.2em;
+  }
+  
+  form {
+    display: inline-flex;
+    gap: 0;
+    width: 100%;
+  }
+  
+  form input {
+    padding: 1em 6em 1em 1em;
+    border: none;
+    border-top-left-radius: 0.2em;
+    border-bottom-left-radius: 0.2em;
+  }
+  
+  form input:focus {
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: black;
+  }
+  
+  form button {
+    border: none;
+    background-color: rgb(199, 202, 15);
+    border-top-right-radius: 0.2em;
+    border-bottom-right-radius: 0.2em;
+    width: 100%;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  form button:hover {
+    cursor: pointer;
+  }
+  
+  form input::placeholder {
+    font-size: 1em;
+    text-align: left;
+  }
+  
+  .ft-rw-copy p {
+    color: white;
+  }
+  
+  .ft-rw-copy {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+  }
