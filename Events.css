@@ -1,0 +1,72 @@
+.compsa-logo{
+    width: 250px;
+ 
+}
+
+
+
+
+nav{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    background-color: darkgrey;
+    margin-bottom: 10px;
+    border-bottom: 2px solid gold;
+}
+nav ul{
+    display: inline-flex;
+    list-style: none;
+}
+nav ul li{
+    margin-right: 20px;
+    font-size: 10px;
+    text-transform: uppercase;
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.a:active{
+    border-bottom: 1px solid gold;
+}
+a:hover{
+    color: gold;
+    transition: .5s;
+    opacity: 8px;
+}
+body{
+    width: 90%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.c-h2{
+    background: url("../11297552_DCIT205/about-banner.jpg") no-repeat 0, 400px;
+    min-height: 300px;
+    text-align: center;
+    width: 100%;
+    background-size: cover;  
+    color: white;
+    font-size: 40px;
+    margin-bottom: 10px;
+    position: relative;
+    
+    
+}
+.c-h2 h2{
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.content h3{
+    font-size: 30px;
+    color: blueviolet;
+    margin-bottom: 5px;
+}
+.content p{
+    color: gray;
+    font-size: 15px;
+}
